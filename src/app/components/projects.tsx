@@ -45,7 +45,11 @@ export default function Projects(): JSX.Element {
           </div>
 
           <div className={styles.middle}>
-            <img className={"slide"} src={"./images/reader1.png"} />
+            <img
+              alt="reader site image"
+              className={"slide"}
+              src={"./images/reader1.png"}
+            />
           </div>
           <div className={styles.bottom}>
             <p>
@@ -93,7 +97,7 @@ export default function Projects(): JSX.Element {
             </header>
           </div>
           <div className={styles.middle}>
-            <img src={"./images/reddit1.png"} />
+            <img alt="reddit clone site image" src={"./images/reddit1.png"} />
           </div>
           <div className={styles.bottom}>
             <p>
@@ -132,7 +136,7 @@ export default function Projects(): JSX.Element {
             </header>
           </div>
           <div className={styles.middle}>
-            <img src={"./images/portfolio1.png"} />
+            <img alt="portfolio site image" src={"./images/portfolio1.png"} />
           </div>
           <div className={styles.bottom}>
             <p>A simple static site built with Next.js.</p>
