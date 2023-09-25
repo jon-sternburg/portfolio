@@ -122,7 +122,7 @@ export default function Projects(): JSX.Element {
                   Live Link
                 </a>
                 <a
-                  href={"http://localhost:3000/"}
+                  href={"https://github.com/jon-sternburg/portfolio"}
                   className={styles.source_link}
                   target="_blank"
                 >
@@ -131,7 +131,9 @@ export default function Projects(): JSX.Element {
               </div>
             </header>
           </div>
-          <div className={styles.middle}></div>
+          <div className={styles.middle}>
+            <img src={"./images/portfolio1.png"} />
+          </div>
           <div className={styles.bottom}>
             <p>A simple static site built with Next.js.</p>
 
