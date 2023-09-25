@@ -30,13 +30,14 @@
   justify-content: center;
 }
 
-.top_bar_buttons button {
+.top_bar_buttons a {
   background: #1d1d1d;
   outline: none;
-  padding: 7.5px;
+  padding: 7.5px 10px;
   border: none;
   color: #e4e4e4;
   border-radius: 4px;
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +46,7 @@
   border: 2px solid #756767;
 }
 
-.top_bar_buttons button:hover {
+.top_bar_buttons a:hover {
   cursor: pointer;
   background: #121212;
 }
@@ -291,10 +292,11 @@
   justify-content: center;
 }
 
-.footer_buttons button {
+.footer_buttons a {
   background: #121212;
   outline: none;
-  padding: 7.5px;
+  padding: 7.5px 10px;
+  text-decoration: none;
   border: none;
   color: #e4e4e4;
   border-radius: 4px;
@@ -306,7 +308,7 @@
   border: 2px solid #756767;
 }
 
-.footer_buttons button:hover {
+.footer_buttons a:hover {
   cursor: pointer;
   background: #252525;
 }

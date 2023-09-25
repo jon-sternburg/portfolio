@@ -9,18 +9,32 @@ export default function Footer(): JSX.Element {
       <div className={styles.footer_inner}>
         <h3>Jon Sternburg</h3>
         <div className={styles.footer_buttons}>
-          <button type={"button"}>
+          <a
+            href={"jon_sternburg_resume.pdf"}
+            className={styles.live_link}
+            download
+          >
             <FaFile className={styles.resume_icon} />
             <span>Resume</span>
-          </button>
-          <button type={"button"}>
-            <IoMdMail className={styles.contact_icon} />
-            <span>Contact</span>
-          </button>
-          <button type={"button"}>
+          </a>
+          {/* 
+        <a
+          href={"jon_sternburg_resume.pdf"}
+          className={styles.live_link}
+          download
+        >
+          <IoMdMail className={styles.contact_icon} />
+          <span>Contact</span>
+        </a>
+        */}
+          <a
+            href={"https://github.com/jon-sternburg"}
+            className={styles.live_link}
+            target="_blank"
+          >
             <AiFillGithub className={styles.contact_icon} />
             <span>GitHub</span>
-          </button>
+          </a>
         </div>
       </div>
     </footer>

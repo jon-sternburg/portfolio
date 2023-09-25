@@ -8,18 +8,32 @@ export default function Topbar(): JSX.Element {
   return (
     <nav className={styles.top_bar_frame}>
       <div className={styles.top_bar_buttons}>
-        <button aria-label="resume" type={"button"}>
+        <a
+          href={"jon_sternburg_resume.pdf"}
+          className={styles.live_link}
+          download
+        >
           <FaFile className={styles.resume_icon} />
           <span>Resume</span>
-        </button>
-        <button aria-label="contact" type={"button"}>
+        </a>
+        {/* 
+        <a
+          href={"jon_sternburg_resume.pdf"}
+          className={styles.live_link}
+          download
+        >
           <IoMdMail className={styles.contact_icon} />
           <span>Contact</span>
-        </button>
-        <button aria-label="github" type={"button"}>
+        </a>
+        */}
+        <a
+          href={"https://github.com/jon-sternburg"}
+          className={styles.live_link}
+          target="_blank"
+        >
           <AiFillGithub className={styles.contact_icon} />
           <span>GitHub</span>
-        </button>
+        </a>
       </div>
     </nav>
   );
