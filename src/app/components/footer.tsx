@@ -9,7 +9,7 @@ export default function Footer(): JSX.Element {
         <h3>Jon Sternburg</h3>
         <div className={styles.footer_buttons}>
           <a
-            href={"jon_sternburg_resume.pdf"}
+            href={"Jon Sternburg Resume.pdf"}
             className={styles.topbar_link}
             download
           >

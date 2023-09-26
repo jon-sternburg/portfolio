@@ -17,7 +17,7 @@ export default function Hero(): JSX.Element {
         </div>
         <div className={styles.content_buttons}>
           <a
-            href={"jon_sternburg_resume.pdf"}
+            href={"Jon Sternburg Resume.pdf"}
             className={styles.topbar_link}
             download
           >

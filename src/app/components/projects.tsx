@@ -52,7 +52,7 @@ export default function Projects(): JSX.Element {
                 <div className={styles.react_tag}>React</div>
                 <div className={styles.typescript_tag}>TypeScript</div>
                 <div className={styles.next_tag}>Next.js</div>
-                <div className={styles.epub_tag}>epub.js</div>
+                <div className={styles.epub_tag}>Epub.js</div>
                 <div className={styles.epub_tag}>MongoDB</div>
               </div>
             </div>
