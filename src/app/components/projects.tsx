@@ -5,7 +5,7 @@ export default function Projects(): JSX.Element {
   return (
     <section className={styles.content_item_frame}>
       <div className={styles.projects_content_wrap}>
-        <div className={styles.project_content}>
+        <article className={styles.project_content}>
           <div className={styles.top}>
             <header>
               <h3>Gutenberg Reader</h3>
@@ -57,9 +57,9 @@ export default function Projects(): JSX.Element {
               </div>
             </div>
           </div>
-        </div>
+        </article>
 
-        <div className={styles.project_content}>
+        <article className={styles.project_content}>
           <div className={styles.top}>
             <header>
               <h3>Reddit Clone</h3>
@@ -97,9 +97,9 @@ export default function Projects(): JSX.Element {
               </div>
             </div>
           </div>
-        </div>
+        </article>
 
-        <div className={styles.project_content}>
+        <article className={styles.project_content}>
           <div className={styles.top}>
             <header>
               <h3>Portfolio Site</h3>
@@ -134,7 +134,7 @@ export default function Projects(): JSX.Element {
               </div>
             </div>
           </div>
-        </div>
+        </article>
       </div>
     </section>
   );
