@@ -7,8 +7,9 @@ import Footer from "./components/footer";
 export default function App() {
   return (
     <main className={styles.main}>
+      {/*
       <Topbar />
-
+ */}
       <section className={styles.content_frame}>
         <Hero />
         <Projects />

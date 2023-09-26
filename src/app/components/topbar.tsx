@@ -10,7 +10,7 @@ export default function Topbar(): JSX.Element {
       <div className={styles.top_bar_buttons}>
         <a
           href={"jon_sternburg_resume.pdf"}
-          className={styles.live_link}
+          className={styles.topbar_link}
           download
         >
           <FaFile className={styles.resume_icon} />
@@ -28,7 +28,7 @@ export default function Topbar(): JSX.Element {
         */}
         <a
           href={"https://github.com/jon-sternburg"}
-          className={styles.live_link}
+          className={styles.topbar_link}
           target="_blank"
         >
           <AiFillGithub className={styles.contact_icon} />
