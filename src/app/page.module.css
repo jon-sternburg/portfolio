@@ -96,7 +96,7 @@
 }
 
 .content_item_frame {
-  width: calc(60% - 40px);
+  width: calc(75% - 40px);
   border-radius: 42px;
   margin: 40px auto;
   min-height: 300px;
